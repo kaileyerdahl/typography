@@ -1,0 +1,101 @@
+/* Embedded Fonts */
+
+
+
+
+
+
+/* Container Items */
+
+html,body {
+    height: 100%;
+}
+
+#cover {
+    width: 100%;
+    height: 100%;
+    background: url("../images/painting.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    
+}
+
+#container {
+    width: 600px;
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+    height: 40px;
+    position: relative;
+    top: 50%;
+    margin-top: -20px;
+   /* padding-top: 25%; */
+    font-family: 'Baloo Tamma', cursive;
+    font-size: 3em;
+    color: white;
+  /*  line-height: 1.1em; */
+    letter-spacing: em;
+    word-spacing: em;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+
+text-rendering: optimizeLegibility;
+}
+
+.author {
+      height: 16px;
+    position: relative;
+    top: 55%;
+    font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 1.1em;
+    color: lightgrey;
+    line-height: 1.1em;
+    letter-spacing: em;
+    word-spacing: em;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+.text {
+    width: 600px;
+   font-family: 'PT Serif', serif;
+    font-size: .8em;
+    color: darkgray;
+    line-height: 1.3em;
+    letter-spacing: em;
+    word-spacing: em;
+    text-align: left;
+    text-indent: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+    text-rendering: optimizeLegibility;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    
+}
+/*
+@font-face {
+    font-family: bodycopy;
+    src:url(../fonts/Borg.ttf);
+    
+}
+*/
+
+.italic {
+    font-style: italic;
+    
+}
